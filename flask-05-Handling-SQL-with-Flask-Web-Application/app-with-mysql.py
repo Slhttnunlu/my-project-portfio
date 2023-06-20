@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Configure mysql database
 app.config['MYSQL_DATABASE_HOST'] = 'root-db.chzf7ykadc4i.us-east-1.rds.amazonaws.com'
 app.config['MYSQL_DATABASE_USER'] = 'admin'
-app.config['MYSQL_DATABASE_PASSWORD'] = '19035416'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'xxxxxxxx'
 app.config['MYSQL_DATABASE_DB'] = 'clarusway'
 app.config['MYSQL_DATABASE_PORT'] = 3306
 mysql = MySQL()
